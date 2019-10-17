@@ -1,0 +1,72 @@
+body{
+	background-image: url('images/rugby.jpg');
+	color: CornflowerBlue;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 16px;
+}
+
+#img-circle{
+	border-radius: 50%;
+}
+
+h1, h2, h3{
+	font-family: 'Poppins', sans-serif;
+
+}
+h1{
+	color: FireBrick;
+	font-weight: 700;
+	letter-spacing: 10px;
+	font-size: 30px;
+
+}
+
+h2{
+	text-decoration: underline;
+	color:MidnightBlue ;
+}
+
+.btn-blue{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: navy;
+	 transition: color 0.3s ease;
+	
+}
+
+.btn-blue :hover{
+	color:red;
+	text-decoration: underline;
+
+}
+
+.bloc{ 
+	background-color: BlanchedAlmond;
+	padding: 50px;
+	margin: 30px 160px ;
+	box-shadow: 1px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 5px;
+ }
+
+ .general{
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+  @media (max-width: 760px) {
+ 	.general{
+ 		width: 600px;
+ 		}
+	 }
+
+ @media (max-width: 500px) {
+ 	.general{
+ 		width: 400px;
+ 	}
+ }
+
+.btn-blue li{
+	list-style: none;
+	text-orientation: center;
+	
